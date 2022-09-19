@@ -1,14 +1,16 @@
 import React, { useState } from 'react'
 
-const AddTask = () => {
+  const AddTask = ({addTask}) => {
   const [value, setValue] = useState ('')
   const addItem  = ()=> {
-    console.log(value)
+    addTask(value)
+    setValue('')
   }
   return (
     <>
         <div className='input-container'>
             <input type='text' className='input' placeholder='Add a new task' 
+            value={value}
             onChange={(e) => {
               setValue(e.target.value)
             }}

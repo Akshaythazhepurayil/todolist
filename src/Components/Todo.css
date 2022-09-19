@@ -3,7 +3,7 @@
     color: white;
     width: 90vw;
     margin: 3em auto;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px;
 }
 .header{
@@ -29,8 +29,8 @@
 }
 
 .btn{
-    border-radius: 5px;
-    font-size: 2em;
+    border-radius: 15px;
+    font-size: 1.5em;
     margin: 0px 5px;
     padding: 10px 15px;
     border: none;
@@ -48,7 +48,7 @@
     color: rgb(153, 0, 255);
     background-color: rgb(47, 3, 79);
     border: 1px solid rgb(153, 0, 255);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 0.5em;
     margin: 0.5em;
 }
