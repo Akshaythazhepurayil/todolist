@@ -1,7 +1,7 @@
 .todo-container{
     background-color: rgb(47, 3, 79);
     color: white;
-    width: 100vw;
+    width: 90vw;
     margin: 3em auto;
     border-radius: 10px;
     padding: 15px;
@@ -27,16 +27,38 @@
     margin: 1em;
     width: 80%;
 }
+
 .btn{
-    border: 5px;
+    border-radius: 5px;
     font-size: 2em;
-    margin: 15px;
-    padding: 15px 15px;
-    padding-bottom: 30px;
+    margin: 0px 5px;
+    padding: 10px 15px;
     border: none;
     cursor: pointer;
-    color: white;
+    color: rgb(47, 3, 79);
     background-color: rgb(153, 0, 255);
-    border-radius: 20px;
     text-align: center;
+  
+}
+
+.list-task{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(153, 0, 255);
+    background-color: rgb(47, 3, 79);
+    border: 1px solid rgb(153, 0, 255);
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.del-btn{
+    border-radius: 5px;
+    margin: 11px 5px;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    color: rgb(47, 3, 79);
+    float: right;
+    background-color: white;
 }

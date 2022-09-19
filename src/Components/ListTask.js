@@ -1,8 +1,13 @@
 import React from 'react'
 
-const ListTask = () => {
+const ListTask = ({task}) => {
   return (
-    <div>ListTask</div>
+    <>
+  <div className='list-task'>
+    {task.title}
+    <button className='del-btn'>Delete</button>
+  </div>
+    </>
   )
 }
 
